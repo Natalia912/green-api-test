@@ -1,0 +1,32 @@
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+:root {
+  --wa-green: #00a884;
+  --wa-green-dark: #008069;
+  --wa-band: #00a884;
+  --wa-app-bg: #f0f2f5;
+  --wa-surface: #ffffff;
+  --wa-panel: #f0f2f5;
+  --wa-chat-bg: #efeae2;
+  --wa-bubble-in: #ffffff;
+  --wa-bubble-out: #d9fdd3;
+  --wa-text: #111b21;
+  --wa-muted: #667781;
+  --wa-border: #d1d7db;
+  --wa-input-bg: #ffffff;
+  --wa-danger: #d93a3a;
+  --wa-danger-bg: #fdecec;
+}
+
+body {
+  margin: 0;
+  font-family:
+    "Segoe UI", "Helvetica Neue", Helvetica, "Lucida Grande", Arial, sans-serif;
+  background: var(--wa-app-bg);
+  color: var(--wa-text);
+  -webkit-font-smoothing: antialiased;
+}
